@@ -1,0 +1,102 @@
+/* Container for the entire todo app */
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adds spacing around the app */
+    background-color: #f4f4f9; /* Soft background color */
+    min-height: 100vh; /* Ensures the container takes full screen height */
+}
+
+/* Input section */
+.todo-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adds spacing below input section */
+}
+
+/* Box containing the input field and button */
+.todo-box {
+    border: 2px solid seagreen;
+    display: flex;
+    justify-content: space-between; /* Spreads input and button apart */
+    align-items: center;
+    width: 70%;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 10px; /* Adds spacing inside the box */
+    background-color: white; /* White background for clarity */
+}
+
+/* Input box styling */
+.todo-inputbox {
+    border: 2px solid blue;
+    width: 80%; /* Takes most of the space */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Adds inner padding */
+    font-size: 16px; /* Larger text for better readability */
+    transition: border-color 0.3s ease-in-out; /* Smooth border transition on focus */
+}
+
+/* Changes the border color when input is focused */
+.todo-inputbox:focus {
+    border-color: darkblue;
+    outline: none; /* Removes default focus outline */
+}
+
+/* Button styling */
+.todo-box button {
+    background-color: seagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adds some padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Matches input text size */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+.todo-box button:hover {
+    background-color: darkgreen; /* Darkens button color on hover */
+}
+
+.todo-list {
+    margin-top: 20px;
+    width: 70%;
+  }
+  
+  .todo-data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-buttons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+  }
+  
+  .button {
+    padding: 8px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkgreen;
+  }
+  
