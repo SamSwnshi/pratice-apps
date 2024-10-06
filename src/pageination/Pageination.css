@@ -1,0 +1,62 @@
+.page-full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-data {
+  width: 80%; /* Make the table take up 80% of the page width */
+  margin: 20px 0;
+}
+
+.tables-data {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+.tables-data th,
+.tables-data td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; /* Light border around table cells */
+}
+
+.tables-data th {
+  background-color: #f4f4f4; /* Light background for header row */
+  font-weight: bold;
+}
+
+.tables-data tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row colors for readability */
+}
+
+button {
+  padding: 10px 40px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Gray out disabled buttons */
+  cursor: not-allowed;
+}
+
+.page-full p {
+  margin: 10px 0;
+}
+.buttonsss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
